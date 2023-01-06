@@ -10,7 +10,7 @@
         Else
             Panel2.Show()
         End If
-        If TextBox1.Text = "killian.lucbert" And TextBox2.Text = "Klucbert952007*" Then
+        If TextBox1.Text = "killian.lucbert" And TextBox2.Text = "notabg" Then
             Me.Close()
             TimelineK.Show()
         Else
@@ -23,6 +23,12 @@
             Panel2.Show()
         End If
         If TextBox1.Text = "" And TextBox2.Text = "" Then
+            Panel2.Show()
+        End If
+        If TextBox1.Text = "adyl.aarab" And TextBox2.Text = "idk" Then
+            Me.Close()
+            TimelineA.Show()
+        Else
             Panel2.Show()
         End If
     End Sub

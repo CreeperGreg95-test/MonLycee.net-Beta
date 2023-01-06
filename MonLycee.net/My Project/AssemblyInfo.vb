@@ -13,7 +13,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Un ENT rien de plus spécial !")>
 <Assembly: AssemblyCompany("L'Univers des Jeux Vidéos, Inc.")>
 <Assembly: AssemblyProduct("MonLycee.net")>
-<Assembly: AssemblyCopyright("Copyright ©  2022 L'Univers des Jeux Vidéos, Inc.")>
+<Assembly: AssemblyCopyright("Copyright ©  2023 L'Univers des Jeux Vidéos, Inc.")>
 <Assembly: AssemblyTrademark("L'Univers des Jeux Vidéos, Inc.")>
 
 <Assembly: ComVisible(False)>
@@ -32,6 +32,6 @@ Imports System.Runtime.InteropServices
 ' en utilisant '*', comme indiqué ci-dessous :
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.1")>
-<Assembly: AssemblyFileVersion("1.0.0.1")>
+<Assembly: AssemblyVersion("1.0.0.2")>
+<Assembly: AssemblyFileVersion("1.0.0.2")>
 <Assembly: NeutralResourcesLanguage("fr")>

@@ -117,4 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>- Ajout des adresses e-mails personnalisés pour l'ENT.
+La messagerie arrivera plus tard dans le développement...
+
+- Ajout de la page d'accueil pour les comptes suivants :
+
+  - Killian LUCBERT
+  - Adyl AARAB
+  - Grégory AUBERT-MAGUERO
+
+Ces comptes sont en développement, certains boutons
+peuvent ne pas fonctionner dans cette mise à jour...</value>
+  </data>
 </root>

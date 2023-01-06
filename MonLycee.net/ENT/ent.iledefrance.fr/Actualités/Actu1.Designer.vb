@@ -22,6 +22,7 @@ Partial Class Actu1
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Actu1))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -52,7 +53,7 @@ Partial Class Actu1
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.MonLycee.net.My.Resources.Resources.update
-        Me.PictureBox1.Location = New System.Drawing.Point(82, 373)
+        Me.PictureBox1.Location = New System.Drawing.Point(62, 430)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(283, 263)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -63,12 +64,11 @@ Partial Class Actu1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(539, 403)
+        Me.Label2.Location = New System.Drawing.Point(497, 308)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(1041, 92)
+        Me.Label2.Size = New System.Drawing.Size(1041, 506)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "- Ajout des adresses e-mails personnalisés pour l'ENT." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "La messagerie arrivera pl" &
-    "us tard dans le développement..."
+        Me.Label2.Text = resources.GetString("Label2.Text")
         '
         'Button2
         '

@@ -4,7 +4,7 @@
   <description asmv2:iconFile="ml.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="MonLycee.net" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="MonLycee.net" version="1.0.0.2" language="neutral" processorArchitecture="msil" />
     <commandLine file="MonLycee.net.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MonLycee.net.exe" size="470496">
-      <assemblyIdentity name="MonLycee.net" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MonLycee.net.exe" size="590304">
+      <assemblyIdentity name="MonLycee.net" version="1.0.0.2" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4K3LOm5Qgx97rZlJ8bOZSDaFTVn+iV7Ssg9YierdrRU=</dsig:DigestValue>
+        <dsig:DigestValue>hKLQ/PeptARcS1Qtif0X0+ldHgw4wY5vrliKaGlaMCI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

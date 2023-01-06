@@ -31,7 +31,7 @@
     <PublisherName>L%27Univers des Jeux Vidéos, Inc.</PublisherName>
     <SuiteName>L%27Univers des Jeux Vidéos, Inc.</SuiteName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -132,6 +132,12 @@
     <Compile Include="ENT\ent.iledefrance.fr\Admin ENT\TimelineAdmin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ENT\ent.iledefrance.fr\Adyl AARAB\TimelineA.Designer.vb">
+      <DependentUpon>TimelineA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ENT\ent.iledefrance.fr\Adyl AARAB\TimelineA.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ENT\ent.iledefrance.fr\Authentification.Designer.vb">
       <DependentUpon>Authentification.vb</DependentUpon>
     </Compile>
@@ -196,11 +202,17 @@
     <EmbeddedResource Include="ENT\ent.iledefrance.fr\Admin ENT\TimelineAdmin.resx">
       <DependentUpon>TimelineAdmin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ENT\ent.iledefrance.fr\Adyl AARAB\TimelineA.resx">
+      <DependentUpon>TimelineA.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ENT\ent.iledefrance.fr\Authentification.resx">
       <DependentUpon>Authentification.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ENT\ent.iledefrance.fr\Grégory AUBERT-MAGUERO\TimelineG.resx">
       <DependentUpon>TimelineG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ENT\ent.iledefrance.fr\Killian LUCBERT\TimelineK.resx">
+      <DependentUpon>TimelineK.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ENT\ent.iledefrance.fr\Logout.resx">
       <DependentUpon>Logout.vb</DependentUpon>

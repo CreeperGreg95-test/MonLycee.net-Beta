@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class TimelineK
+Partial Class TimelineA
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
@@ -23,7 +23,7 @@ Partial Class TimelineK
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TimelineK))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TimelineA))
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -566,9 +566,9 @@ Partial Class TimelineK
         Me.Label1.ForeColor = System.Drawing.SystemColors.Control
         Me.Label1.Location = New System.Drawing.Point(202, 27)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(212, 29)
+        Me.Label1.Size = New System.Drawing.Size(153, 29)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Killian LUCBERT"
+        Me.Label1.Text = "Adyl AARAB"
         '
         'PictureBox17
         '
@@ -770,7 +770,7 @@ Partial Class TimelineK
         Me.Label15.TabIndex = 43
         Me.Label15.Text = "ACTUALITES"
         '
-        'TimelineK
+        'TimelineA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -796,7 +796,7 @@ Partial Class TimelineK
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "TimelineK"
+        Me.Name = "TimelineA"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Timeline"
         Me.Panel8.ResumeLayout(False)
